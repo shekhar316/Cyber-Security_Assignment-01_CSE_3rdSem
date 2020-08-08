@@ -30,7 +30,7 @@ string decrypt(string str, int shift)
     string result = ""; 
     for (int i = 0; i < str.length(); i++) 
     { 
-        if ( isupper(str[i]) ) 
+        if ( isupper(str[i]) )  
             result = result + char(int(str[i] - shift - 65) % 26 + 65); 
         else
             result = result + char(int(str[i] - shift - 97) % 26 + 97); 
