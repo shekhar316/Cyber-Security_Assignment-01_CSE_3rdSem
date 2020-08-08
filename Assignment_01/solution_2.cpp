@@ -29,7 +29,7 @@ int main(){
     }
     else{
         cout << "String is Palindrome.\n";
-    }
+    } 
   
     return 0;
   }
