@@ -20,7 +20,7 @@ int main(){
         if(str[i] != str[j]){
             flag = 0; 
             break;
-        }
+        } 
     }
     if( flag == 0){
         cout << "String is not Palindrome.\n";
