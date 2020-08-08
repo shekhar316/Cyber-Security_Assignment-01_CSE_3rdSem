@@ -1,4 +1,5 @@
-# Cyber-Security_Assignment-01_CSE-3rdSemester
+# Cyber-Security_Assignments_CSE-3rdSemester
+## Assignment 01
 ### Questions 
 * Write a C/C++ program that takes n number of command line arguments and finds the least number. In case of invalid entered value, prompt the user to enter another value.
 * Write a C/C++ program to check whether a string is palindrome or not.
