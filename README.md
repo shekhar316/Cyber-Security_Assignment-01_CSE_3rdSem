@@ -10,7 +10,7 @@ using # and $ symbols, alternatively. While encrypting the message the encrypted
 the symbol as many times as the letter position in alphabetical order (consider the string as case
 insensitive).
 
-### Submission Details :
+## Submission Details :
 * Name : Shekhar Saxena
 * Class Roll No : 49
 * University Roll No : 2014852
