@@ -13,7 +13,7 @@ def blackjack(list):
         if (flag == 0):
             return 'BUST'
         else:
-            return sum
+            return sum-10
 
 
 list = []
