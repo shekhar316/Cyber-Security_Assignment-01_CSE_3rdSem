@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Swap Para</title>
+</head>
+<body>
+	<div class = "container">
+    	<h1>Paragraph Changer</h1>
+    	<p>Click on the button to see the magic.</p>
+    	<br><br>
+        <h3>Para 1</h3>
+        <p id = "para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <br>
+        <h3>Para 2</h3>
+        <p id = "para2">Create your GitHub profile as taught in lectures and then push all your programs to folders named according to
+        assignment. Example - when you push codes of this assignment, they should be inside Assignment4 folder.Please keep in mind that you don’t commit all the codes together. Keep on committing codes module wise or question
+        wise whatever seems available.</p>
+        <br><br>
+        <button id = "submit">Change Paragraph Content</button>
+    </div>
+    <script type = "text/javascript">
+        function change(){
+            p1 = document.getElementById('para1');
+            p2 = document.getElementById('para2');
+            p1Text = p1.innerText;
+            p2Text = p2.innerText;
+            p1.innerText = p2Text;
+            p2.innerText = p1Text;
+        }
+        
+        btn = document.getElementById('submit');
+        
+        btn.onclick = function(){
+            change();
+        }
+    </script>
+</body>
+</html>

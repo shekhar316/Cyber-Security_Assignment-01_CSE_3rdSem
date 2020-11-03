@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sum</title>
+</head>
+<body>
+	<div class = "container">
+    	<h1>Sum Calculator</h1>
+    	<p>Click on the button to calculate the sum of two numbers.</p>
+    	<br><br>
+        <button id = "submit">Calculate Sum</button>
+
+    </div>
+    <script type = "text/javascript">
+        function gcd(x, y) {
+          if ((typeof x !== 'number') || (typeof y !== 'number')) 
+            return false;
+          return x + y;
+        }
+        
+        btn = document.getElementById('submit');
+
+        function input(){
+            in1 = prompt("Enter the first number :");
+            return parseInt(in1);
+        }
+
+        function input2(){
+            in2 = prompt("Enter the another number : ");
+            return parseInt(in2);
+        }
+        
+        btn.onclick = function(){
+            n1 = input();
+            n2 = input2();
+            result = gcd(n1,n2);
+            alert("Sum of " + n1 + " and " + n2 + " is : " + result);
+        }
+    </script>
+</body>
+</html>
